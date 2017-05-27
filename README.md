@@ -44,6 +44,5 @@ disk
 ----
 sda は **on/off** できるように。  
 =======
-# rpgraph
-Raspberry Pi system status graph
->>>>>>> 0f8805c3ca6d75b6efe576aee367dc34cb293715
+
+No warranty, at your own risk.
