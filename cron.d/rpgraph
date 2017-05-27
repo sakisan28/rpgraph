@@ -1,0 +1,2 @@
+*/5 * * * * www-data /opt/rpgraph/rpgraph_logger.sh
+*/5 * * * * www-data /opt/rpgraph/rpgraph_buildchart.sh
