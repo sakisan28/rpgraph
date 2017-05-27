@@ -32,7 +32,8 @@ cronで5分ごとに起動して、システム状態のログを記録する。
 rpgraph_logger.sh の生成したログをもとに、htmlを生成する。 html の中には JavaScript で書かれた、Google chartsのコードが入っている。 内部でmake\*.htmlを呼び出していて、html生成はこれらのmake-ファイルで行われる。
 
 
-
+No warranty, at your own risk.
+----
 
 todo
 ====
@@ -43,6 +44,4 @@ temp
 disk
 ----
 sda は **on/off** できるように。  
-=======
 
-No warranty, at your own risk.
