@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-Raspberry Pi system status graph.
+rpgraph
 ====
+Raspberry Pi system status graph.
 
 mrtgもどき。 グラフの描画は、クライアントサイドのライブラリ Google charts を使用する。  
 サーバー側は、ロギングと文字列操作をしているだけである。
