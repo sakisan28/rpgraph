@@ -23,7 +23,7 @@ END{
 cat << EOF >> $OUTPUTFILE
         var options = {
           isStacked: true,
-          title: 'rp1 swap usage',
+          title: '`hostname` swap usage',
           hAxis: {title: 'Date/Time',  titleTextStyle: {color: '#333'}},
           vAxis: {}
         };

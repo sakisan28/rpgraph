@@ -20,7 +20,7 @@ END{
 
 cat << EOF >> $OUTPUTFILE
         var options = {
-          title: 'rp1 mmcblk0 read/write',
+          title: '`hostname` mmcblk0 read/write',
           hAxis: {title: 'Date/Time',  titleTextStyle: {color: '#333'}},
           vAxis: {minValue: 0}
         };

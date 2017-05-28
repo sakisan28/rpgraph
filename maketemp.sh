@@ -22,7 +22,7 @@ END{
 
 cat << EOF >> $OUTPUTFILE
         var options = {
-          title: 'rp1 Temperature',
+          title: '`hostname` Temperature',
           hAxis: {title: 'Date/Time',  titleTextStyle: {color: '#333'}},
           vAxis: {ticks: [20,30,40,50,60,70,80,90]}
         };

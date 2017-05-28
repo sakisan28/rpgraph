@@ -20,7 +20,7 @@ END{
 
 cat << EOF >> $OUTPUTFILE
         var options = {
-          title: 'rp1 CPU load',
+          title: '`hostname` CPU load',
           hAxis: {title: 'Date/Time',  titleTextStyle: {color: '#333'}},
           vAxis: {ticks: [0,25,50,75,100]}
         };

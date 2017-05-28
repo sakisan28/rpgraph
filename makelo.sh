@@ -20,7 +20,7 @@ END{
 
 cat << EOF >> $OUTPUTFILE
         var options = {
-          title: 'rp1 lo usage',
+          title: '`hostname` lo usage',
           hAxis: {title: 'Date/Time',  titleTextStyle: {color: '#333'}},
           vAxis: {}
         };
