@@ -11,6 +11,9 @@ Raspberry Pi の Raspbian 用に作成したが、温度測定以外は他のLin
 基本的にはHDDでの運用を想定している。 /dev/sda の状態も取りに行っているので、必要に応じて
 ここは見に行かないように変える必要があるかもしれない。
 
+![screenshot](https://cloud.githubusercontent.com/assets/28994053/26518176/be637ec6-42e5-11e7-9849-6a15c6472424.png)
+
+
 使い方
 ----
 1. ファイル一式をどこかに展開。 例: /opt/rpgraph  
