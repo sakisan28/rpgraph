@@ -13,7 +13,7 @@ tail -n 150 $DATAFILERAW | awk '
   if(OFLAG!=0)
     printf(",\n");
   printf("          [new Date(%s",$1);
-  printf("000),%d,%d,%d,%d]",$16-$17-$18-$19,$18,$19,$17);
+  printf("000),%d,%d,%d,%d]",$16-$17-($18-$19)-$19,($18-$19),$19,$17);
   OFLAG=1;
 }
 END{
